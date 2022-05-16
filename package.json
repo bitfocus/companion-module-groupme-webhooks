@@ -1,11 +1,26 @@
 {
-  "name": "companion-module-groupme-webhooks",
+  "name": "groupme-webhooks",
   "version": "1.0.0",
-  "description": "",
+  "api_version": "1.0.0",
+  "manufacturer": "Microsoft",
+  "product": "GroupMe",
+  "shortname": "groupme",
+  "keywords": [
+    "Webhooks"
+  ],
+  "description": "Module to send messages to GroupMe",
+  "homepage": "https://github.com/bitfocus/companion-module-groupme-webhooks",
+  "bugs": {
+    "url": "https://github.com/bitfocus/companion-module-groupme-webhooks/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfocus/companion-module-groupme-webhooks.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Darin Pope <darin@planetpope.com>",
+  "license": "MIT"
 }
