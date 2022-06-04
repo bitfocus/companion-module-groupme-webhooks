@@ -82,8 +82,8 @@ instance.prototype.action = function(action) {
 	
 	switch(action.action) {
 		case 'custom':
-      body.bot_id = self.config.botId;
-			body.text = action.options.message;
+      body.bot_id = self.config.botId.trim();
+			body.text = action.options.message.trim();
 			break;
 		default:
 			break;
